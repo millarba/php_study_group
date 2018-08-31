@@ -8,7 +8,7 @@
 <p>Standard HTML Text!!</p>
 
 <?php
-	echo "This was generated using PHP."
+	echo "This was generated using PHP.";
 ?>
 
 </body>
