@@ -5,5 +5,11 @@
 </head>
 <body>
 
+<p>Standard HTML Text!!</p>
+
+<?php
+	echo "This was generated using PHP."
+?>
+
 </body>
 </html>
