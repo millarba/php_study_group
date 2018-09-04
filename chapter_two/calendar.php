@@ -12,8 +12,7 @@
 	$months = array(
 		1 => "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
 	);
-	$days = range(1, 31);
-	$years = range(2011, 2021);
+
 
 	echo "<select name='month'>";
 	foreach ($months as $key => $value) {
@@ -22,14 +21,14 @@
 	echo "</select>";
 
 	echo "<select name='day'>";
-	foreach ($days as $value) {
-		echo "<option value=\"$value\">$value</option>\n";
+	for ($day = 1; $day <= 31; $day++) {
+		echo "<option value=\"$day\">$day</option>\n";
 	}
 	echo "</select>";
 
 	echo "<select name='year'>";
-	foreach ($years as $value) {
-		echo "<option value=\"$value\">$value</option>\n";
+	for ($year = 2011; $year <= 2021; $year++) {
+		echo "<option value=\"$year\">$year</option>\n";
 	}
 	echo "</select>";
  ?>
